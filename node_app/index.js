@@ -6,6 +6,11 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-app.listen(port, () => {
-  console.log(`App running at http://localhost:${port}`);
-});
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(port, () => {
+    console.log(`App running at http://localhost:${port}`);
+  });
+}
+
+module.exports = app;
+
