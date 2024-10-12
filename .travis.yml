@@ -2,6 +2,5 @@ language: node_js
 node_js:
   - "12"
 script:
-  - cd node_app # Navigate to the correct folder
   - npm install
   - npm test
