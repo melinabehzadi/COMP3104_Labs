@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/COMP3104-Labs/static/css/main.27ca76a1.css",
+    "main.js": "/COMP3104-Labs/static/js/main.c8393b7d.js",
+    "static/js/453.54e82f9a.chunk.js": "/COMP3104-Labs/static/js/453.54e82f9a.chunk.js",
+    "index.html": "/COMP3104-Labs/index.html",
+    "main.27ca76a1.css.map": "/COMP3104-Labs/static/css/main.27ca76a1.css.map",
+    "main.c8393b7d.js.map": "/COMP3104-Labs/static/js/main.c8393b7d.js.map",
+    "453.54e82f9a.chunk.js.map": "/COMP3104-Labs/static/js/453.54e82f9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27ca76a1.css",
+    "static/js/main.c8393b7d.js"
+  ]
+}
