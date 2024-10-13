@@ -14,7 +14,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [16.x]  # Update to Node.js 16.x or 20.x
 
     steps:
       - name: Checkout code
@@ -30,4 +30,3 @@ jobs:
 
       - name: Run tests
         run: npm test
-
